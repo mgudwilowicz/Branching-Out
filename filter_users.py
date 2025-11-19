@@ -13,7 +13,7 @@ def filter_users_by_name(name):
         found = True
 
     if not found:
-        print("User with this age not found.")
+        print("User with this name not found.")
 
 
 def filter_by_age(age):
@@ -28,7 +28,7 @@ def filter_by_age(age):
         found = True
 
     if not found:
-        print("User with this name not found.")
+        print("User with this age not found.")
 
 
 if __name__ == "__main__":
