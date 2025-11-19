@@ -59,7 +59,7 @@ if __name__ == "__main__":
     """
      Entry point of the program.
 
-     Prompts the user to choose a filter option (name, age, or email) and 
+     Prompts the user to choose a filter option (name, age or email) and 
      calls the corresponding filtering function. If the user enters an 
      unsupported option, a message is displayed.
      """
@@ -76,3 +76,4 @@ if __name__ == "__main__":
         filter_by_email(email_to_search)
     else:
         print("Filtering by that option is not yet supported.")
+
